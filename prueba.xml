@@ -601,8 +601,6 @@ table.gsc-search-box td.gsc-input {
     ]]></b:skin>
     
   </head>
-
-  
   <body>
     
     <b:class cond='data:view.isHomepage' name='home-page'/>
@@ -765,7 +763,7 @@ table.gsc-search-box td.gsc-input {
     <b:if cond='data:blog.url != data:blog.homepageUrl'>
       
       <b:section id='bsection-header'>
-        <b:widget id='Header1' locked='false' title='Live Blogger (Header)' type='Header'>
+        <b:widget id='Header1' locked='false' title='Prueba mexi (cabecera)' type='Header'>
           <b:widget-settings>
             <b:widget-setting name='displayUrl'/>
             <b:widget-setting name='displayHeight'>0</b:widget-setting>
@@ -857,11 +855,13 @@ table.gsc-search-box td.gsc-input {
         </b:if>
         
         <b:section id='bsection-blog'>
-          <b:widget id='Blog1' locked='false' title='Blog Posts' type='Blog' version='1'>
+          <b:widget id='Blog1' locked='false' title='Entradas del blog' type='Blog' version='1'>
             <b:widget-settings>
               <b:widget-setting name='showDateHeader'>false</b:widget-setting>
+              <b:widget-setting name='commentLabel'>commentarios</b:widget-setting>
               <b:widget-setting name='style.textcolor'>#000000</b:widget-setting>
               <b:widget-setting name='showShareButtons'>false</b:widget-setting>
+              <b:widget-setting name='authorLabel'>By</b:widget-setting>
               <b:widget-setting name='showCommentLink'>true</b:widget-setting>
               <b:widget-setting name='style.urlcolor'>#008000</b:widget-setting>
               <b:widget-setting name='showAuthor'>false</b:widget-setting>
@@ -869,7 +869,8 @@ table.gsc-search-box td.gsc-input {
               <b:widget-setting name='style.linkcolor'>#0000ff</b:widget-setting>
               <b:widget-setting name='style.unittype'>TextAndImage</b:widget-setting>
               <b:widget-setting name='style.bgcolor'>#ffffff</b:widget-setting>
-              <b:widget-setting name='timestampLabel'>Posted on</b:widget-setting>
+              <b:widget-setting name='timestampLabel'>Publicado el:</b:widget-setting>
+              <b:widget-setting name='reactionsLabel'/>
               <b:widget-setting name='showAuthorProfile'>false</b:widget-setting>
               <b:widget-setting name='style.layout'>1x1</b:widget-setting>
               <b:widget-setting name='showLabels'>true</b:widget-setting>

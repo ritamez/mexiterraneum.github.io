@@ -2525,8 +2525,8 @@ svg + .liquid-lp-category { display: inline-block; }
 .liquid-blog-scheme-dark .liquid-lp-title, .liquid-blog-scheme-light .liquid-lp-title { color: inherit; }
 .liquid-blog-scheme-dark .liquid-lp-category.bordered a, .liquid-blog-scheme-light .liquid-lp-category.bordered a { color: var(--color-primary); }
 
-.liquid-blog-scheme-dark { color: #181b31; }
-.liquid-blog-scheme-dark .btn-line, .liquid-blog-scheme-dark .liquid-lp-title .split-inner:after { background-color: #181b31; }
+.liquid-blog-scheme-dark { color: #0c3e72; }
+.liquid-blog-scheme-dark .btn-line, .liquid-blog-scheme-dark .liquid-lp-title .split-inner:after { background-color: #0c3e72; }
 
 .liquid-blog-scheme-light { color: #fff; }
 .liquid-blog-scheme-light .btn-line, .liquid-blog-scheme-light .liquid-lp-details-lined:before, .liquid-blog-scheme-light .liquid-lp-details-lined:after, .liquid-blog-scheme-light .liquid-lp-category.underlined-onhover a:after, .liquid-blog-scheme-light .liquid-lp-title .split-inner:after { background-color: #fff; }
@@ -5082,7 +5082,7 @@ body.search .no-results .search-form input[type=submit] { background-color: var(
 
 .text-neon-carrot { color: #ff8e32 !important; }
 
-.text-arapawa { color: #120a57 !important; }
+.text-arapawa { color: #828282 !important; }
 
 .text-san-marino { color: #4A62AC !important; }
 
